@@ -7,13 +7,13 @@
 
     <main class="main">
       <div class="events">
-        <section class="events__container">
-          <h2 class="events__title title">Мероприятия</h2>
-          <div class="events__list listing">
+        <section class="listing events__listing">
+          <h2 class="listing__title section-title">Мероприятия</h2>
+          <div class="listing__events-list">
             <!-- prettier-ignore -->
             @@loop('blocks/event-card.html', [
             {
-              "class": "listing__card-event card-event",
+              "class": "listing__event-card",
               "img": "assets/images/events/nirvana.png",
               "img_webp": "assets/images/events/nirvana.webp",
               "alt": "nirvana",
@@ -23,7 +23,7 @@
               "datetime": "2022-12-07T18:00"
             },
             {
-              "class": "listing__card-event card-event",
+              "class": "listing__event-card",
               "img": "assets/images/events/howstuffworks.png",
               "img_webp": "assets/images/events/howstuffworks.webp",
               "alt": "stuff",
@@ -33,7 +33,7 @@
               "datetime": "2022-12-14T18:30"
             },
             {
-              "class": "listing__card-event card-event",
+              "class": "listing__event-card",
               "img": "assets/images/events/sade.png",
               "img_webp": "assets/images/events/sade.webp",
               "alt": "sade",
@@ -43,7 +43,7 @@
               "datetime": "2022-12-16T20:00"
             },
             {
-              "class": "listing__card-event card-event",
+              "class": "listing__event-card",
               "img": "assets/images/events/malevich.png",
               "img_webp": "assets/images/events/malevich.webp",
               "alt": "malevich",
@@ -53,7 +53,7 @@
               "datetime": "2022-12-23T20:00"
             },
             {
-              "class": "listing__card-event card-event",
+              "class": "listing__event-card",
               "img": "assets/images/events/tatler.png",
               "img_webp": "assets/images/events/tatler.webp",
               "alt": "tatler",
@@ -63,11 +63,11 @@
               "datetime": "2022-12-25T13:00"
             },
             {
-              "class": "listing__card-event card-event",
+              "class": "listing__event-card",
               "img": "assets/images/events/thehatters.png",
               "img_webp": "assets/images/events/thehatters.webp",
               "alt": "the_hatters",
-              "title": "Повесилимся на славу на концерте The Hatters",
+              "title": "Повеселимся на славу на концерте The Hatters",
               "descr": "Российская джипси-фолк-рок группа, основанная в 2016 году в Санкт-Петербурге. В основной состав группы входят Юрий Музыченко.",
               "time": "27.12.2022 | начало 10.00",
               "datetime": "2022-12-27T10:00"
